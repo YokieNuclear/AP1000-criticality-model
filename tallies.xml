@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <!--core_mesh-->
+  <mesh id="5" name="core_mesh">
+    <dimension>17 17</dimension>
+    <lower_left>-182.1278 -182.1278</lower_left>
+    <upper_right>182.1278 182.1278</upper_right>
+  </mesh>
+  <!--pin_mesh-->
+  <mesh id="6" name="pin_mesh">
+    <dimension>51 51</dimension>
+    <lower_left>-32.1402 -32.1402</lower_left>
+    <upper_right>32.1402 32.1402</upper_right>
+  </mesh>
+  <!--flux_mesh-->
+  <mesh id="7" name="flux_mesh">
+    <dimension>170 170</dimension>
+    <lower_left>-182.1278 -182.1278</lower_left>
+    <upper_right>182.1278 182.1278</upper_right>
+  </mesh>
+  <!--flux_mesh_coarse-->
+  <mesh id="8" name="flux_mesh_coarse">
+    <dimension>68 68</dimension>
+    <lower_left>-182.1278 -182.1278</lower_left>
+    <upper_right>182.1278 182.1278</upper_right>
+  </mesh>
+  <filter id="6" type="mesh">
+    <bins>5</bins>
+  </filter>
+  <filter id="7" type="mesh">
+    <bins>6</bins>
+  </filter>
+  <filter id="8" type="mesh">
+    <bins>7</bins>
+  </filter>
+  <filter id="9" type="mesh">
+    <bins>8</bins>
+  </filter>
+  <filter id="10" type="energy">
+    <bins>0.0 0.625 100000.0 20000000.0</bins>
+  </filter>
+  <tally id="5" name="assembly_power">
+    <filters>6</filters>
+    <scores>fission</scores>
+  </tally>
+  <tally id="6" name="pin_power_center">
+    <filters>7</filters>
+    <scores>fission</scores>
+  </tally>
+  <tally id="7" name="flux_map">
+    <filters>8</filters>
+    <scores>flux</scores>
+  </tally>
+  <tally id="8" name="flux_energy">
+    <filters>9 10</filters>
+    <scores>flux</scores>
+  </tally>
+</tallies>

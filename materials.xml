@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="8" name="UO2 2.35 w/o" temperature="600.0">
+    <density units="g/cm3" value="10.4"/>
+    <nuclide ao="0.0002126684867730073" name="U234"/>
+    <nuclide ao="0.023793369582048193" name="U235"/>
+    <nuclide ao="0.9758849768701569" name="U238"/>
+    <nuclide ao="0.0001089850610219513" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material depletable="true" id="9" name="UO2 3.40 w/o" temperature="600.0">
+    <density units="g/cm3" value="10.4"/>
+    <nuclide ao="0.0003076486460324053" name="U234"/>
+    <nuclide ao="0.034419758411497886" name="U235"/>
+    <nuclide ao="0.9651149339165843" name="U238"/>
+    <nuclide ao="0.00015765902588543755" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material depletable="true" id="10" name="UO2 4.45 w/o" temperature="600.0">
+    <density units="g/cm3" value="10.4"/>
+    <nuclide ao="0.00040260292195070947" name="U234"/>
+    <nuclide ao="0.04504325141039924" name="U235"/>
+    <nuclide ao="0.9543478259411959" name="U238"/>
+    <nuclide ao="0.0002063197264540987" name="U236"/>
+    <nuclide ao="1.9952412" name="O16"/>
+    <nuclide ao="0.000758" name="O17"/>
+    <nuclide ao="0.0040008" name="O18"/>
+  </material>
+  <material id="11" name="Zircaloy-4" temperature="600.0">
+    <density units="g/cm3" value="6.55"/>
+    <nuclide name="Zr90" wo="0.49691995159048497"/>
+    <nuclide name="Zr91" wo="0.10957269704038768"/>
+    <nuclide name="Zr92" wo="0.16932539434355595"/>
+    <nuclide name="Zr94" wo="0.17533282255496546"/>
+    <nuclide name="Zr96" wo="0.028849134470605997"/>
+    <nuclide name="Sn112" wo="0.00013715892931965404"/>
+    <nuclide name="Sn114" wo="9.499085572042323e-05"/>
+    <nuclide name="Sn115" wo="4.936454378539518e-05"/>
+    <nuclide name="Sn116" wo="0.002129403252570527"/>
+    <nuclide name="Sn117" wo="0.0011344627635425028"/>
+    <nuclide name="Sn118" wo="0.003608256495100963"/>
+    <nuclide name="Sn119" wo="0.0012905970053650568"/>
+    <nuclide name="Sn120" wo="0.004936075353979278"/>
+    <nuclide name="Sn122" wo="0.0007131822271364948"/>
+    <nuclide name="Sn124" wo="0.0009065085734797057"/>
+    <nuclide name="Fe54" wo="0.00011855672267684395"/>
+    <nuclide name="Fe56" wo="0.0019299321043708116"/>
+    <nuclide name="Fe57" wo="4.5367740887167366e-05"/>
+    <nuclide name="Fe58" wo="6.143432065177235e-06"/>
+    <nuclide name="Cr50" wo="4.173686622718313e-05"/>
+    <nuclide name="Cr52" wo="0.000836993623513459"/>
+    <nuclide name="Cr53" wo="9.673586818675183e-05"/>
+    <nuclide name="Cr54" wo="2.4533642072606143e-05"/>
+  </material>
+  <material id="12" name="Coolant (3000 ppm B)" temperature="600.0">
+    <density units="g/cm3" value="0.707"/>
+    <nuclide name="H1" wo="0.110965457648983"/>
+    <nuclide name="H2" wo="3.454235101700665e-05"/>
+    <nuclide name="O16" wo="0.8846466761819666"/>
+    <nuclide name="O17" wo="0.0003571810959965879"/>
+    <nuclide name="O18" wo="0.0019961427220367774"/>
+    <nuclide name="B10" wo="0.0005506648762521977"/>
+    <nuclide name="B11" wo="0.002449335123747802"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="13" name="Water Reflector" temperature="600.0">
+    <density units="g/cm3" value="0.707"/>
+    <nuclide name="H1" wo="0.110965457648983"/>
+    <nuclide name="H2" wo="3.454235101700665e-05"/>
+    <nuclide name="O16" wo="0.8846466761819666"/>
+    <nuclide name="O17" wo="0.0003571810959965879"/>
+    <nuclide name="O18" wo="0.0019961427220367774"/>
+    <nuclide name="B10" wo="0.0005506648762521977"/>
+    <nuclide name="B11" wo="0.002449335123747802"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="14" name="Helium" temperature="600.0">
+    <density units="g/cm3" value="0.000178"/>
+    <nuclide ao="2e-06" name="He3"/>
+    <nuclide ao="0.999998" name="He4"/>
+  </material>
+</materials>

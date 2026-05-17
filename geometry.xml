@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="22" material="8" region="-43" universe="14"/>
+  <cell id="23" material="14" region="43 -44" universe="14"/>
+  <cell id="24" material="11" region="44 -45" universe="14"/>
+  <cell id="25" material="12" region="45 46 -47 48 -49" universe="14"/>
+  <cell id="26" material="9" region="-50" universe="15"/>
+  <cell id="27" material="14" region="50 -51" universe="15"/>
+  <cell id="28" material="11" region="51 -52" universe="15"/>
+  <cell id="29" material="12" region="52 53 -54 55 -56" universe="15"/>
+  <cell id="30" material="10" region="-57" universe="16"/>
+  <cell id="31" material="14" region="57 -58" universe="16"/>
+  <cell id="32" material="11" region="58 -59" universe="16"/>
+  <cell id="33" material="12" region="59 60 -61 62 -63" universe="16"/>
+  <cell id="34" material="12" region="-64" universe="17"/>
+  <cell id="35" material="11" region="64 -65" universe="17"/>
+  <cell id="36" material="12" region="65 66 -67 68 -69" universe="17"/>
+  <cell fill="18" id="37" name="Assembly Zone 1 (2.35%)" region="70 -71 72 -73" universe="21"/>
+  <cell fill="19" id="38" name="Assembly Zone 2 (3.40%)" region="74 -75 76 -77" universe="22"/>
+  <cell fill="20" id="39" name="Assembly Zone 3 (4.45%)" region="78 -79 80 -81" universe="23"/>
+  <cell id="40" material="13" name="Reflector" universe="24"/>
+  <cell fill="25" id="41" name="Core Lattice Region" region="-84 82 -83" universe="26"/>
+  <cell id="42" material="13" name="Radial Reflector" region="84 | -82 | 83" universe="26"/>
+  <lattice id="18" name="17x17 ()">
+    <pitch>1.2604 1.2604</pitch>
+    <dimension>17 17</dimension>
+    <lower_left>-10.7134 -10.7134</lower_left>
+    <universes>
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 14 14 14 17 14 14 17 14 14 17 14 14 14 14 14 
+14 14 14 17 14 14 14 14 14 14 14 14 14 17 14 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 17 14 14 17 14 14 17 14 14 17 14 14 17 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 17 14 14 17 14 14 17 14 14 17 14 14 17 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 17 14 14 17 14 14 17 14 14 17 14 14 17 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 14 17 14 14 14 14 14 14 14 14 14 17 14 14 14 
+14 14 14 14 14 17 14 14 17 14 14 17 14 14 14 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 
+14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 </universes>
+  </lattice>
+  <lattice id="19" name="17x17 ()">
+    <pitch>1.2604 1.2604</pitch>
+    <dimension>17 17</dimension>
+    <lower_left>-10.7134 -10.7134</lower_left>
+    <universes>
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 17 15 15 17 15 15 17 15 15 15 15 15 
+15 15 15 17 15 15 15 15 15 15 15 15 15 17 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 17 15 15 17 15 15 17 15 15 17 15 15 17 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 17 15 15 17 15 15 17 15 15 17 15 15 17 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 17 15 15 17 15 15 17 15 15 17 15 15 17 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 17 15 15 15 15 15 15 15 15 15 17 15 15 15 
+15 15 15 15 15 17 15 15 17 15 15 17 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 
+15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 </universes>
+  </lattice>
+  <lattice id="20" name="17x17 ()">
+    <pitch>1.2604 1.2604</pitch>
+    <dimension>17 17</dimension>
+    <lower_left>-10.7134 -10.7134</lower_left>
+    <universes>
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 17 16 16 17 16 16 17 16 16 16 16 16 
+16 16 16 17 16 16 16 16 16 16 16 16 16 17 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 17 16 16 17 16 16 17 16 16 17 16 16 17 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 17 16 16 17 16 16 17 16 16 17 16 16 17 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 17 16 16 17 16 16 17 16 16 17 16 16 17 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 17 16 16 16 16 16 16 16 16 16 17 16 16 16 
+16 16 16 16 16 17 16 16 17 16 16 17 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 </universes>
+  </lattice>
+  <lattice id="25" name="AP-1000 Core">
+    <pitch>21.4268 21.4268</pitch>
+    <outer>24</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-182.1278 -182.1278</lower_left>
+    <universes>
+24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 
+24 24 24 24 24 24 24 23 23 23 24 24 24 24 24 24 24 
+24 24 24 24 24 23 23 22 22 22 23 23 24 24 24 24 24 
+24 24 24 24 23 22 22 22 22 22 22 22 23 24 24 24 24 
+24 24 24 23 22 22 22 22 21 22 22 22 22 23 24 24 24 
+24 24 23 22 22 22 21 21 21 21 21 22 22 22 23 24 24 
+24 24 23 22 22 21 21 21 21 21 21 21 22 22 23 24 24 
+24 23 22 22 22 21 21 21 21 21 21 21 22 22 22 23 24 
+24 23 22 22 21 21 21 21 21 21 21 21 21 22 22 23 24 
+24 23 22 22 22 21 21 21 21 21 21 21 22 22 22 23 24 
+24 24 23 22 22 21 21 21 21 21 21 21 22 22 23 24 24 
+24 24 23 22 22 22 21 21 21 21 21 22 22 22 23 24 24 
+24 24 24 23 22 22 22 22 21 22 22 22 22 23 24 24 24 
+24 24 24 24 23 22 22 22 22 22 22 22 23 24 24 24 24 
+24 24 24 24 24 23 23 22 22 22 23 23 24 24 24 24 24 
+24 24 24 24 24 24 24 23 23 23 24 24 24 24 24 24 24 
+24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 </universes>
+  </lattice>
+  <surface coeffs="0.0 0.0 0.4096" id="43" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4178" id="44" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.475" id="45" type="z-cylinder"/>
+  <surface coeffs="-0.6302" id="46" type="x-plane"/>
+  <surface coeffs="0.6302" id="47" type="x-plane"/>
+  <surface coeffs="-0.6302" id="48" type="y-plane"/>
+  <surface coeffs="0.6302" id="49" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.4096" id="50" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4178" id="51" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.475" id="52" type="z-cylinder"/>
+  <surface coeffs="-0.6302" id="53" type="x-plane"/>
+  <surface coeffs="0.6302" id="54" type="x-plane"/>
+  <surface coeffs="-0.6302" id="55" type="y-plane"/>
+  <surface coeffs="0.6302" id="56" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.4096" id="57" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4178" id="58" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.475" id="59" type="z-cylinder"/>
+  <surface coeffs="-0.6302" id="60" type="x-plane"/>
+  <surface coeffs="0.6302" id="61" type="x-plane"/>
+  <surface coeffs="-0.6302" id="62" type="y-plane"/>
+  <surface coeffs="0.6302" id="63" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.561" id="64" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.602" id="65" type="z-cylinder"/>
+  <surface coeffs="-0.6302" id="66" type="x-plane"/>
+  <surface coeffs="0.6302" id="67" type="x-plane"/>
+  <surface coeffs="-0.6302" id="68" type="y-plane"/>
+  <surface coeffs="0.6302" id="69" type="y-plane"/>
+  <surface coeffs="-10.7134" id="70" type="x-plane"/>
+  <surface coeffs="10.7134" id="71" type="x-plane"/>
+  <surface coeffs="-10.7134" id="72" type="y-plane"/>
+  <surface coeffs="10.7134" id="73" type="y-plane"/>
+  <surface coeffs="-10.7134" id="74" type="x-plane"/>
+  <surface coeffs="10.7134" id="75" type="x-plane"/>
+  <surface coeffs="-10.7134" id="76" type="y-plane"/>
+  <surface coeffs="10.7134" id="77" type="y-plane"/>
+  <surface coeffs="-10.7134" id="78" type="x-plane"/>
+  <surface coeffs="10.7134" id="79" type="x-plane"/>
+  <surface coeffs="-10.7134" id="80" type="y-plane"/>
+  <surface coeffs="10.7134" id="81" type="y-plane"/>
+  <surface boundary="vacuum" coeffs="-243.36" id="82" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="243.36" id="83" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="0.0 0.0 202.1278" id="84" type="z-cylinder"/>
+</geometry>
